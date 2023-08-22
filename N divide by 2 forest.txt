@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+void nForest(int n) {
+    // This function prints a forest pattern of '*' characters.
+    // The number of '*' characters in each row increases from 1 to 'n'.
+
+    for (int i = 0; i < n; i++) {
+        // Loop for each row
+
+        for (int j = 0; j <= i; j++) {
+            // Loop to print '*' in each column
+            cout << "* ";
+        }
+
+        // Move to the next line for the next row
+        cout << endl;
+    }
+}

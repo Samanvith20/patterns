@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+void triangle(int n) {
+    // This function prints a triangle pattern.
+    // Each row prints the row number multiple times.
+
+    for (int i = 1; i <= n; i++) {
+        // Loop for each row
+
+        for (int j = 1; j <= i; j++) {
+            // Loop to print the row number in each column
+            cout << i << " ";
+        }
+
+        // Move to the next line for the next row
+        cout << endl;
+    }
+}
